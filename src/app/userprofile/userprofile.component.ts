@@ -112,7 +112,7 @@ if(this.redirect==false){''}
   onEdit( ){
  
 
-    this.itemList.set(this.userKey , {
+    this.itemList.set(this.myid , {
       name : this.data.name  ,
       phone :  this.data.phone ,
       age : this.data.age ,
